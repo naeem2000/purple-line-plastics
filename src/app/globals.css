@@ -1,11 +1,31 @@
+/* Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* Jost */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 
 :root {
+	/* colors */
 	--white: #ffffff;
 	--black: #171717;
+	--purple: #9955ff;
+
+	/* backgrounds */
+	--landing-bg: url('/images/landing-bg.png');
+
+	/* fonts */
+	--inter: 'Inter', sans-serif;
+	--jost: 'Jost', sans-serif;
 }
 
 * {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
+}
+
+.max-width {
+	max-width: 1920px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
