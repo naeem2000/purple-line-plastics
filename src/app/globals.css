@@ -12,6 +12,7 @@
 
 	/* backgrounds */
 	--landing-bg: url('/images/landing-bg.png');
+	--hero-bg: url('/images/hero-bg.png');
 
 	/* fonts */
 	--inter: 'Inter', sans-serif;
@@ -24,7 +25,7 @@
 }
 
 .max-width {
-	max-width: 1920px;
+	max-width: 1720px;
 	margin: 0 auto;
 	padding-left: 20px;
 	padding-right: 20px;

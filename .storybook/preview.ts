@@ -1,5 +1,5 @@
 import type { Preview } from '@storybook/nextjs';
-import 'tailwindcss';
+import '../src/app/globals.css';
 
 const preview: Preview = {
 	parameters: {
