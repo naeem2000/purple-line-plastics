@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Nav from '@/stories/Nav';
 import './globals.css';
+import Footer from '@/stories/Footer';
 
 export const metadata: Metadata = {
 	title: 'Purple Line Plastics',
@@ -17,6 +18,7 @@ export default function RootLayout({
 			<body className={`antialiased`}>
 				<Nav />
 				{children}
+				<Footer />
 			</body>
 		</html>
 	);
