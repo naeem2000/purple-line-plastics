@@ -11,8 +11,8 @@
 	--purple: #9955ff;
 
 	/* backgrounds */
-	--landing-bg: url('/images/landing-bg.png');
 	--hero-bg: url('/images/hero-bg.png');
+	--best-sellers-bg: url('/images/best-sellers-bg.png');
 
 	/* fonts */
 	--inter: 'Inter', sans-serif;

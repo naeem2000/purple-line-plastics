@@ -1,39 +1,18 @@
-import './button.css';
-
 export interface ButtonProps {
-  /** Is this the principal call to action on the page? */
-  primary?: boolean;
-  /** What background color to use */
-  backgroundColor?: string;
-  /** How large should the button be? */
-  size?: 'small' | 'medium' | 'large';
-  /** Button contents */
-  label: string;
-  /** Optional click handler */
-  onClick?: () => void;
+	label: string;
+	className?: string;
+	onClick?: () => void;
 }
 
-/** Primary UI component for user interaction */
-export const Button = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
-  label,
-  ...props
-}: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  return (
-    <button
-      type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
-      {...props}
-    >
-      {label}
-      <style jsx>{`
-        button {
-          background-color: ${backgroundColor};
-        }
-      `}</style>
-    </button>
-  );
+export const Button = ({ label, onClick, className }: ButtonProps) => {
+	return (
+		<button
+			onClick={onClick}
+			type='button'
+			className={`${className} max-w-[230px] h-[50px] cursor-pointer font-[Jost,sans-serif] text-lg lg:text-[20px]leading-[100%] tracking-[0%] rounded-[5px] border border-white text-white p-2 hover:opacity-70`}
+			style={{ fontWeight: 400 }}
+		>
+			{label}
+		</button>
+	);
 };

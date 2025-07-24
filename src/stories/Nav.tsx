@@ -1,14 +1,16 @@
-import Image from 'next/image';
-import React from 'react';
+'use client';
+import { Twirl as Hamburger } from 'hamburger-react';
 import { navItems } from '../../public/data';
+import Image from 'next/image';
 import Link from 'next/link';
+import React from 'react';
 
 export default function Nav() {
 	return (
 		<nav className='border-b-[14px] border-b-[var(--purple)]'>
 			<div className='flex w-full justify-between items-center pt-14 pb-9 max-width'>
 				<Image src={'/logos/logo.png'} alt='logo' width={250} height={30} />
-				<ul className='flex gap-10 list-none'>
+				<ul className='hidden xl:flex gap-10 self-end flex-wrap list-none'>
 					{navItems.map((item, index) => {
 						return (
 							<Link key={index} href={item.link}>
@@ -19,6 +21,9 @@ export default function Nav() {
 						);
 					})}
 				</ul>
+				<div className='block lg:hidden'>
+					<Hamburger />
+				</div>
 			</div>
 		</nav>
 	);
