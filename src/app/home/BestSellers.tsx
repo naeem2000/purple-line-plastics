@@ -1,7 +1,8 @@
-import Image from 'next/image';
-import React from 'react';
 import { bestSellers } from '../../../public/data';
 import { Button } from '@/stories/Button';
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
 
 export default function BestSellers() {
 	return (
@@ -31,13 +32,28 @@ export default function BestSellers() {
 									{item.product}
 								</p>
 								<br />
-								<p
-									className='text-lg lg:text-[22px] font-[Inter,sans-serif] leading-[110%] tracking-[0%]'
-									dangerouslySetInnerHTML={{ __html: item.description }}
-								/>
+								{item.description.map((item, index) => {
+									return (
+										<div key={index}>
+											<p className='text-lg lg:text-[22px] font-[Inter,sans-serif] leading-[120%] tracking-[0%]'>
+												{item.closure}
+												<br />
+												{item.pet}
+												<br />
+												{item.clear}
+												<br />
+												{item.dimensions}
+												<br />
+												{item.mixture}
+											</p>
+										</div>
+									);
+								})}
 								<div className='flex flex-col mt-6 gap-5'>
-									<Button label='View Product' />
-									<Button label='Enquire' />
+									<Link href={`/product/${index}`}>
+										<Button variant='light' label='View Product' />
+									</Link>
+									<Button variant='light' label='Enquire' />
 								</div>
 							</div>
 						);
