@@ -8,7 +8,7 @@ import React from 'react';
 export default function Nav() {
 	return (
 		<nav className='border-b-[14px] border-b-[var(--purple)]'>
-			<div className='flex w-full justify-between items-center pt-14 pb-9 max-width'>
+			<div className='flex w-full justify-between items-center py-7 lg:pt-14 lg:pb-9 max-width'>
 				<Link href={'/'}>
 					<Image src={'/logos/logo.png'} alt='logo' width={250} height={30} />
 				</Link>
