@@ -30,7 +30,7 @@ export default function Hospitality() {
 						Medium sized niche Blow Moulder manufacturing plastic bottles for
 						the Cosmetic, Pharmaceutical & Hospitality markets.
 					</p>
-					<Button className='mt-10' label='Enquire now' />
+					<Button variant='light' className='mt-10' label='Enquire now' />
 				</div>
 			</div>
 		</section>

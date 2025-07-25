@@ -18,7 +18,7 @@ export default function Hero() {
 						for manufacturing & maintaining of all moulds for various plastic
 						products.
 					</p>
-					<Button className='mt-10' label='SHOP OUR RANGE' />
+					<Button variant='light' className='mt-10' label='SHOP OUR RANGE' />
 				</div>
 			</div>
 		</section>

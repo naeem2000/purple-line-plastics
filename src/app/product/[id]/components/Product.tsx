@@ -63,7 +63,7 @@ export default function Product({ paramsIndex }: Props) {
 						})}
 					</div>
 					<Button variant='dark' className='mt-2' label='Enquire now' />
-					<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-7 mt-10 lg:mt-[72px] flex-col lg:flex-row'>
+					<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-7 mt-10 lg:mt-[66px] flex-col lg:flex-row'>
 						{product.imagePreviews.map((item, index) => {
 							return (
 								<Image
