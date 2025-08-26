@@ -1,4 +1,5 @@
-import { navItems } from '../../public/data';
+import { footerNavItems } from '../../public/data';
+import { routes } from '../../public/routes';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -16,7 +17,7 @@ export default function Footer() {
 							>
 								PRODUCTS
 							</p>
-							{navItems?.splice(0, 6).map((item, index) => {
+							{footerNavItems?.map((item, index) => {
 								return (
 									<Link
 										key={index}
@@ -62,10 +63,10 @@ export default function Footer() {
 							height={160}
 							alt='Emyezweni'
 						/>
-						<p className='w-full lg:max-w-[280px] text-lg lg:text-xl leading-[180%] tracking-[0%] font-[Inter,sans-serif]'>
+						<p className='w-full lg:max-w-[351px] text-lg lg:text-xl leading-[180%] tracking-[0%] font-[Inter,sans-serif]'>
 							Purple Line Plastics proudly supports and sponsors Emyezweni
 							School. <br />
-							<Link href='#' className='underline'>
+							<Link href={routes.emyezweni} className='underline'>
 								Read more here.
 							</Link>
 						</p>

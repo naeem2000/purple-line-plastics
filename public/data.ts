@@ -62,6 +62,33 @@ export const navItems: NavItems = [
 	},
 ];
 
+export const footerNavItems: NavItems = [
+	{
+		text: 'Bottles',
+		link: '#',
+	},
+	{
+		text: 'Closures',
+		link: '#',
+	},
+	{
+		text: 'Jars',
+		link: '#',
+	},
+	{
+		text: 'Tablet Containers',
+		link: '#',
+	},
+	{
+		text: 'Buoyancy',
+		link: '#',
+	},
+	{
+		text: 'Custom',
+		link: '#',
+	},
+];
+
 export const bestSellers: BestSellers = [
 	{
 		image: '/products/tall-250ml.png',

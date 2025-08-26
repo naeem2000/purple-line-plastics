@@ -3,9 +3,9 @@ import React from 'react';
 
 export default function Hero() {
 	return (
-		<section className='relative max-width z-10'>
+		<section className='relative z-10 px-2 xl:!px-20'>
 			<div className='bg-top bg-[image:var(--hero-bg)] bg-cover bg-no-repeat h-full max-h-[80vh] min-h-[700px] rounded-3xl flex items-center justify-start'>
-				<div className='flex flex-col items-start justify-center text-white px-5 2xl:px-36'>
+				<div className='flex flex-col items-start justify-center text-white px-8 xl:px-36'>
 					<h1 className='font-black text-4xl lg:text-6xl leading-[100%] tracking-[0%] font-[Inter,sans-serif]'>
 						WORLD CLASS
 					</h1>
