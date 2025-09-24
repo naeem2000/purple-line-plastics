@@ -8,7 +8,7 @@ import React from 'react';
 
 export default function Nav() {
 	return (
-		<nav className='border-b-[14px] border-b-[var(--purple)]'>
+		<nav>
 			<div className='flex w-full justify-between items-center py-7 lg:pt-14 lg:pb-9 max-width'>
 				<Link href={routes.home}>
 					<Image src={'/logos/logo.png'} alt='logo' width={250} height={30} />
@@ -28,6 +28,7 @@ export default function Nav() {
 					<Hamburger />
 				</div>
 			</div>
+			<div className='nav-border' />
 		</nav>
 	);
 }

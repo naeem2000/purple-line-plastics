@@ -3,14 +3,14 @@ import React from 'react';
 
 export default function Hospitality() {
 	return (
-		<section className='h-full lg:h-screen bg-[image:var(--hospitality-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white py-10'>
+		<section className='bg-[image:var(--hospitality-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white py-32'>
 			<div className='max-width h-full flex items-center justify-center'>
-				<div className='bg-[var(--purple)] text-center flex items-center justify-center flex-col rounded-[20px] py-10 px-5 lg:py-16 lg:px-24'>
+				<div className='bg-[var(--dark-purple)] text-center flex items-center justify-center flex-col rounded-[20px] py-10 px-5 lg:py-16 lg:px-24'>
 					<h2
 						className='font-[Inter,sans-serif] text-3xl lg:text-[50px] leading-[100%] tracking-[0%] wrap-normal mb-10'
 						style={{ fontWeight: 900 }}
 					>
-						HOSPITALITY & PHARMACUETICAL
+						HOSPITALITY & PHARMACEUTICAL
 					</h2>
 					<p
 						className='max-w-[700px] text-lg lg:text-[22px] leading-[120%] tracking-[0%] font-[Jost,sans-serif]'

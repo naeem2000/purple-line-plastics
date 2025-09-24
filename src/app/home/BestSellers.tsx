@@ -6,7 +6,7 @@ import React from 'react';
 
 export default function BestSellers() {
 	return (
-		<section className='relative bg-[image:var(--best-sellers-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white pt-36 pb-20 -mt-20'>
+		<section className='bg-[image:var(--best-sellers-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white py-20'>
 			<div className='max-width'>
 				<h3
 					className='text-center font-[Jost,sans-serif] text-[22px] leading-[100%] tracking-[0%] mb-10'
