@@ -17,14 +17,13 @@ type Description = {
 	mixture: string;
 }[];
 
-type BestSellers = {
+export type BestSellers = {
 	image: string;
 	product: string;
 	description: Description;
 	viewProduct: string;
 	enquire: string;
 	pageProperties: PageProperties;
-	imagePreviews: string[];
 }[];
 
 export const navItems: NavItems = [
@@ -49,7 +48,7 @@ export const navItems: NavItems = [
 		link: '#',
 	},
 	{
-		text: 'Custom',
+		text: 'Top Sellers',
 		link: '#',
 	},
 	{
@@ -58,7 +57,7 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Contact us',
-		link: '#',
+		link: '/contact-us',
 	},
 ];
 
@@ -102,11 +101,7 @@ export const bestSellers: BestSellers = [
 				mixture: '435 minimum',
 			},
 		],
-		imagePreviews: [
-			'/products/previews/preview-1.png',
-			'/products/previews/preview-2.png',
-			'/products/previews/preview-3.png',
-		],
+
 		viewProduct: '#',
 		enquire: '#',
 		pageProperties: [
@@ -118,8 +113,8 @@ export const bestSellers: BestSellers = [
 		],
 	},
 	{
-		image: '/products/square-500ml.png',
-		product: 'Square 500m',
+		image: '/products/bullet-500ml.png',
+		product: 'Bullet 500ml',
 		description: [
 			{
 				closure: '24/410 closure',
@@ -129,11 +124,7 @@ export const bestSellers: BestSellers = [
 				mixture: '490 minimum',
 			},
 		],
-		imagePreviews: [
-			'/products/previews/preview-1.png',
-			'/products/previews/preview-2.png',
-			'/products/previews/preview-3.png',
-		],
+
 		viewProduct: '#',
 		enquire: '#',
 		pageProperties: [
@@ -145,8 +136,8 @@ export const bestSellers: BestSellers = [
 		],
 	},
 	{
-		image: '/products/square-200ml.png',
-		product: 'Square 200ml',
+		image: '/products/boston-50ml.png',
+		product: 'Boston 50ml',
 		description: [
 			{
 				closure: '24/410 closure',
@@ -155,11 +146,6 @@ export const bestSellers: BestSellers = [
 				dimensions: '128 x Ø46 x Ø46',
 				mixture: '540 minimum',
 			},
-		],
-		imagePreviews: [
-			'/products/previews/preview-1.png',
-			'/products/previews/preview-2.png',
-			'/products/previews/preview-3.png',
 		],
 		viewProduct: '#',
 		enquire: '#',
@@ -170,6 +156,12 @@ export const bestSellers: BestSellers = [
 				colour: 'clear',
 			},
 		],
+	},
+];
+
+export const products = [
+	{
+		id: 0,
 	},
 ];
 

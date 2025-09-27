@@ -12,16 +12,14 @@ export default function Product({ paramsIndex }: Props) {
 
 	return (
 		<section className='max-width'>
-			<div className='flex flex-col lg:flex-row justify-center lg:gap-14 mt-20'>
-				<div>
-					<Image
-						src={product.image}
-						alt={product.product}
-						width={850}
-						height={850}
-						className='rounded-[8px]'
-					/>
-				</div>
+			<div className='flex flex-col lg:flex-row justify-start lg:gap-14 mt-20'>
+				<Image
+					src={product.image}
+					alt={product.product}
+					width={850}
+					height={850}
+					className='rounded-[8px] w-full lg:w-[50%]'
+				/>
 				<div className='mt-5 lg:mt-14'>
 					<p
 						className='font-[Inter,sans-serif] text-lg lg:text-[40px] leading-[100%] tracking-[0%] mb-5'
@@ -63,20 +61,6 @@ export default function Product({ paramsIndex }: Props) {
 						})}
 					</div>
 					<Button variant='dark' className='mt-2' label='Enquire now' />
-					<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-7 mt-10 lg:mt-[66px] flex-col lg:flex-row'>
-						{product.imagePreviews.map((item, index) => {
-							return (
-								<Image
-									key={index}
-									src={item}
-									width={250}
-									height={250}
-									alt='preview'
-									className='w-full lg:w-auto'
-								/>
-							);
-						})}
-					</div>
 				</div>
 			</div>
 			<div className='mt-32 lg:mt-48'>
