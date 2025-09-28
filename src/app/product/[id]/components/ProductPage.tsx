@@ -5,9 +5,17 @@ import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import React from 'react';
 
-export default function Product() {
+export default function ProductPage() {
 	const params = useParams();
 	const product = bestSellers[parseInt(params.id as string)];
+
+	if (!product) {
+		return (
+			<section className='max-width text-center py-11'>
+				<h1>No product found</h1>
+			</section>
+		);
+	}
 
 	return (
 		<section className='max-width'>
