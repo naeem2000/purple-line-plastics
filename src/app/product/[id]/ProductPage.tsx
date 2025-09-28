@@ -1,8 +1,8 @@
 'use client';
-import { bestSellers, mightLike } from '../../../../../public/data';
+import { bestSellers, mightLike } from '../../../../public/data';
+import { useParams } from 'next/navigation';
 import { Button } from '@/stories/Button';
 import Image from 'next/image';
-import { useParams } from 'next/navigation';
 import React from 'react';
 
 export default function ProductPage() {
@@ -27,7 +27,7 @@ export default function ProductPage() {
 					height={850}
 					className='rounded-[8px] w-full lg:w-[50%]'
 				/>
-				<div className='mt-5 lg:mt-14'>
+				<div className='mt-5 lg:mt-0'>
 					<p
 						className='font-[Inter,sans-serif] text-lg lg:text-[40px] leading-[100%] tracking-[0%] mb-5'
 						style={{ fontWeight: 900 }}

@@ -1,4 +1,4 @@
-import ProductPage from './components/ProductPage';
+import ProductPage from './ProductPage';
 import { Metadata } from 'next';
 import React from 'react';
 

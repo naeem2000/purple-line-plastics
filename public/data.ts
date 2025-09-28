@@ -21,6 +21,7 @@ export type BestSellers = {
 	image: string;
 	product: string;
 	description: Description;
+	productType: string;
 	viewProduct: string;
 	enquire: string;
 	pageProperties: PageProperties;
@@ -101,7 +102,7 @@ export const bestSellers: BestSellers = [
 				mixture: '435 minimum',
 			},
 		],
-
+		productType: 'tall',
 		viewProduct: '#',
 		enquire: '#',
 		pageProperties: [
@@ -124,7 +125,7 @@ export const bestSellers: BestSellers = [
 				mixture: '490 minimum',
 			},
 		],
-
+		productType: 'bullet',
 		viewProduct: '#',
 		enquire: '#',
 		pageProperties: [
@@ -147,6 +148,7 @@ export const bestSellers: BestSellers = [
 				mixture: '540 minimum',
 			},
 		],
+		productType: 'boston',
 		viewProduct: '#',
 		enquire: '#',
 		pageProperties: [

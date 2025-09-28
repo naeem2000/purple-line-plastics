@@ -21,7 +21,6 @@ export default function ContactUs() {
 				<form
 					className='pt-36 pb-20 flex items-center justify-center box-border'
 					action={submitForm}
-					method='POST'
 				>
 					<div className='w-full max-w-[904px]'>
 						<div className='flex items-center justify-center gap-6'>
@@ -34,6 +33,7 @@ export default function ContactUs() {
 									setFormData({ ...formData, name: e.target.value })
 								}
 								value={formData.name}
+								required
 							/>
 							<input
 								type='email'
@@ -44,6 +44,7 @@ export default function ContactUs() {
 									setFormData({ ...formData, email: e.target.value })
 								}
 								value={formData.email}
+								required
 							/>
 						</div>
 						<textarea
@@ -56,6 +57,7 @@ export default function ContactUs() {
 								setFormData({ ...formData, message: e.target.value })
 							}
 							value={formData.message}
+							required
 						/>
 						<div className='flex items-center justify-start mt-6 gap-3'>
 							<input
