@@ -6,15 +6,10 @@ export const metadata: Metadata = {
 	title: 'Purple Line Plastics | Product',
 };
 
-export default async function page({
-	params,
-}: {
-	params: Promise<{ id: string }>;
-}) {
-	const paramsIndex = await params;
+export default async function page() {
 	return (
 		<main>
-			<Product paramsIndex={paramsIndex.id} />
+			<Product />
 		</main>
 	);
 }

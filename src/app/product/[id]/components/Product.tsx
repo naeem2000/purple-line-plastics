@@ -1,14 +1,13 @@
+'use client';
 import { bestSellers, mightLike } from '../../../../../public/data';
 import { Button } from '@/stories/Button';
 import Image from 'next/image';
+import { useParams } from 'next/navigation';
 import React from 'react';
 
-interface Props {
-	paramsIndex: string;
-}
-
-export default function Product({ paramsIndex }: Props) {
-	const product = bestSellers[parseInt(paramsIndex)];
+export default function Product() {
+	const params = useParams();
+	const product = bestSellers[parseInt(params.id as string)];
 
 	return (
 		<section className='max-width'>
