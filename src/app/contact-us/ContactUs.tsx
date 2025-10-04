@@ -19,7 +19,7 @@ export default function ContactUs() {
 			<PageHeader title='CONTACT US' subHeading='WE’D LOVE TO HEAR FROM YOU' />
 			<div className='max-width'>
 				<form
-					className='pt-36 pb-20 flex items-center justify-center box-border'
+					className='py-10 lg:pt-36 lg:pb-20 flex items-center justify-center box-border'
 					action={submitForm}
 				>
 					<div className='w-full max-w-[904px]'>
@@ -28,7 +28,7 @@ export default function ContactUs() {
 								type='text'
 								name='name&surname'
 								placeholder='Name & Surname*'
-								className='border border-black px-4 py-4 w-full placeholder:text-center placeholder:text-black rounded-[5px] font-normal text-xl leading-[100%] tracking-[0%]'
+								className='border border-black px-4 py-4 w-full placeholder:text-left placeholder:lg:text-center placeholder:text-black rounded-[5px] font-normal text-xl leading-[100%] tracking-[0%]'
 								onChange={(e) =>
 									setFormData({ ...formData, name: e.target.value })
 								}
@@ -39,7 +39,7 @@ export default function ContactUs() {
 								type='email'
 								name='email'
 								placeholder='E-mail*'
-								className='border border-black px-4 py-4 w-full placeholder:text-center placeholder:text-black rounded-[5px] font-normal text-xl leading-[100%] tracking-[0%]'
+								className='border border-black px-4 py-4 w-full placeholder:text-left placeholder:lg:text-center placeholder:text-black rounded-[5px] font-normal text-xl leading-[100%] tracking-[0%]'
 								onChange={(e) =>
 									setFormData({ ...formData, email: e.target.value })
 								}
@@ -52,7 +52,7 @@ export default function ContactUs() {
 							id='message'
 							rows={10}
 							placeholder='Your Message*'
-							className='border border-black px-4 py-4 w-full placeholder:text-center placeholder:text-black rounded-[5px] mt-7 font-normal text-xl leading-[100%] tracking-[0%]'
+							className='border border-black px-4 py-4 w-full placeholder:text-left placeholder:lg:text-center placeholder:text-black rounded-[5px] mt-7 font-normal text-xl leading-[100%] tracking-[0%]'
 							onChange={(e) =>
 								setFormData({ ...formData, message: e.target.value })
 							}
