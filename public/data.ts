@@ -162,6 +162,7 @@ export const bestSellers: BestSellers = [
 ];
 
 export const products = [
+	//bell
 	{
 		id: 0,
 		title: 'Bell 500ml',
@@ -283,6 +284,80 @@ export const products = [
 		],
 		type: 'bullet',
 	},
+	{
+		id: 9,
+		title: 'Buoyancy',
+		closure: 'Sealed',
+		pet: 'HDPE',
+		clear: 'Black',
+		dimensions: '224 height / 6 Sided',
+		mixture: '1000ml volume / 162 minimum',
+		images: [
+			'/products/buoyancy/buoyancy.png',
+			'/products/buoyancy/buoyancy-2.png',
+		],
+		type: 'buoyancy',
+	},
+	//closures-b
+	{
+		id: 10,
+		title: 'Oval Flip',
+		closure: 'Custom',
+		pet: 'PP',
+		clear: 'Various Colors',
+		mixture: '1700 minimum	',
+		images: [
+			'/products/closures-b/oval-flip.png',
+			'/products/closures-b/oval-flip-2.png',
+			'/products/closures-b/oval-flip-pink.png',
+			'/products/closures-b/oval-flip-pink-2.png',
+		],
+		type: 'closures-b',
+	},
+	{
+		id: 11,
+		title: 'Metal',
+		closure: '20, 24 & 28',
+		pet: 'Metal',
+		clear: 'Silver/White/Black/Gold',
+		mixture: '420 minimum	',
+		images: ['/products/closures-b/metal.png'],
+		type: 'closures-b',
+	},
+	{
+		id: 12,
+		title: 'Big Flip',
+		closure: '24 / 410',
+		pet: 'PP',
+		clear: 'Natural',
+		mixture: '420 minimum',
+		images: [
+			'/products/closures-b/big-flip.png',
+			'/products/closures-b/big-flip-2.png',
+		],
+		type: 'closures-b',
+	},
+	{
+		id: 13,
+		title: 'Overcap',
+		closure: 'Various Sizes',
+		pet: 'PP',
+		clear: 'Natural / Black',
+		mixture: '420 / 1200 minimum',
+		images: ['/products/closures-b/overcap.png'],
+		type: 'closures-b',
+	},
+	{
+		id: 14,
+		title: 'Flute',
+		closure: '24 / 410',
+		pet: 'PP',
+		clear: 'Natural / Black',
+		mixture: '420 minimum',
+		images: ['/products/closures-b/flute.png'],
+		type: 'closures-b',
+	},
+	//hosp-50s
 ];
 
 export const mightLike: string[] = [
