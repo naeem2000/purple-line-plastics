@@ -574,6 +574,7 @@ export const products = [
 		images: ['/products/jars-small/jar-100g.png'],
 		type: 'jars-small',
 	},
+	//oval
 ];
 
 export const mightLike: string[] = [
