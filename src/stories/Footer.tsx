@@ -69,12 +69,6 @@ export default function Footer() {
 						>
 							Terms & Conditions
 						</Link>
-						<Link
-							className='hover:underline text-lg lg:text-lg leading-[180%] tracking-[0%] font-[Inter,sans-serif] '
-							href='/cookie-policy'
-						>
-							Cookie Policy
-						</Link>
 					</div>
 					<div>
 						<p
