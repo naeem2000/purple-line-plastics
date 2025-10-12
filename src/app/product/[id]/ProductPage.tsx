@@ -8,7 +8,7 @@ import React from 'react';
 export default function ProductPage() {
 	const params = useParams();
 	const product = bestSellers[parseInt(params.id as string)];
-
+	console.log(mightLike);
 	if (!product) {
 		return (
 			<section className='max-width text-center py-11'>
@@ -78,16 +78,18 @@ export default function ProductPage() {
 					You might like
 				</h2>
 				<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 mb-10 lg:mb-20 place-items-center'>
-					{mightLike.map((item, index) => (
-						<Image
-							key={index}
-							src={item}
-							alt='You might like'
-							width={410}
-							height={410}
-							className='w-full max-w-[410px] h-auto object-contain'
-						/>
-					))}
+					{mightLike.map((item, index) => {
+						return (
+							<Image
+								key={index}
+								src={item.images[0]}
+								alt={item.title}
+								width={410}
+								height={410}
+								className='w-full max-w-[410px] h-auto object-contain'
+							/>
+						);
+					})}
 				</div>
 			</div>
 		</section>

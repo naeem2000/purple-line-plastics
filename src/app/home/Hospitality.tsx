@@ -1,5 +1,7 @@
 import { Button } from '@/stories/Button';
+import Link from 'next/link';
 import React from 'react';
+import { routes } from '../../../public/routes';
 
 export default function Hospitality() {
 	return (
@@ -30,7 +32,9 @@ export default function Hospitality() {
 						Medium sized niche Blow Moulder manufacturing plastic bottles for
 						the Cosmetic, Pharmaceutical & Hospitality markets.
 					</p>
-					<Button variant='light' className='mt-10' label='Enquire now' />
+					<Link href={routes.contactUs}>
+						<Button variant='light' className='mt-10' label='Enquire now' />
+					</Link>
 				</div>
 			</div>
 		</section>

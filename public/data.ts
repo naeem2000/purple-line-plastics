@@ -1,3 +1,5 @@
+import { routes } from './routes';
+
 type NavItems = {
 	text: string;
 	link: string;
@@ -30,7 +32,7 @@ export type BestSellers = {
 export const navItems: NavItems = [
 	{
 		text: 'Bottles',
-		link: '#',
+		link: routes.bottles,
 	},
 	{
 		text: 'Closure',
@@ -58,7 +60,7 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Contact us',
-		link: '/contact-us',
+		link: routes.contactUs,
 	},
 ];
 

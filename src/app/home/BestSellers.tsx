@@ -3,6 +3,7 @@ import { Button } from '@/stories/Button';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { routes } from '../../../public/routes';
 
 export default function BestSellers() {
 	return (
@@ -53,7 +54,9 @@ export default function BestSellers() {
 									<Link href={`/product/${index}`}>
 										<Button variant='light' label='View Product' />
 									</Link>
-									<Button variant='light' label='Enquire' />
+									<Link href={routes.contactUs}>
+										<Button variant='light' label='Enquire' />
+									</Link>
 								</div>
 							</div>
 						);
