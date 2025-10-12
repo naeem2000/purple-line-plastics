@@ -3,10 +3,11 @@ import { Button } from '@/stories/Button';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { routes } from '../../../public/routes';
 
 export default function BestSellers() {
 	return (
-		<section className='relative bg-[image:var(--best-sellers-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white pt-36 pb-20 -mt-20'>
+		<section className='bg-[image:var(--best-sellers-bg)] bg-cover object-fill bg-center xl:bg-top bg-no-repeat text-white py-20'>
 			<div className='max-width'>
 				<h3
 					className='text-center font-[Jost,sans-serif] text-[22px] leading-[100%] tracking-[0%] mb-10'
@@ -53,7 +54,9 @@ export default function BestSellers() {
 									<Link href={`/product/${index}`}>
 										<Button variant='light' label='View Product' />
 									</Link>
-									<Button variant='light' label='Enquire' />
+									<Link href={routes.contactUs}>
+										<Button variant='light' label='Enquire' />
+									</Link>
 								</div>
 							</div>
 						);
