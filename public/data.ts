@@ -52,7 +52,7 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Top Sellers',
-		link: '#',
+		link: routes.topSellers,
 	},
 	{
 		text: 'Social',
@@ -88,78 +88,6 @@ export const footerNavItems: NavItems = [
 	{
 		text: 'Custom',
 		link: '#',
-	},
-];
-
-export const bestSellers: BestSellers = [
-	{
-		image: '/products/tall-250ml.png',
-		product: 'Tall 250ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '175 x Ø 48',
-				mixture: '435 minimum',
-			},
-		],
-		productType: 'tall',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
-	},
-	{
-		image: '/products/bullet-500ml.png',
-		product: 'Bullet 500ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '177 x Ø60 x Ø60',
-				mixture: '490 minimum',
-			},
-		],
-		productType: 'bullet',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
-	},
-	{
-		image: '/products/boston-50ml.png',
-		product: 'Boston 50ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '128 x Ø46 x Ø46',
-				mixture: '540 minimum',
-			},
-		],
-		productType: 'boston',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
 	},
 ];
 
@@ -780,8 +708,8 @@ export const products = [
 		dimensions: '129 x Ø59 x Ø35',
 		mixture: '560 minimum',
 		images: [
-			'/products/pumps/Rectangular-200ml.png',
-			'/products/pumps/Rectangular-200ml-2.png',
+			'/products/Rectangular/Rectangular-200ml.png',
+			'/products/Rectangular/Rectangular-200ml-2.png',
 		],
 		type: 'rectangular',
 	},
@@ -1040,7 +968,7 @@ export const products = [
 	//tall
 	{
 		id: 63,
-		title: 'Tall 250ml/150ml',
+		title: 'Tall 250ml',
 		closure: '24/410 closure',
 		pet: 'PET',
 		clear: 'Clear',
@@ -1130,6 +1058,66 @@ export const products = [
 			'/products/tottle/tottle-250-2.png',
 		],
 		type: 'tottle',
+	},
+];
+
+export const bestSellers = [
+	{
+		id: 63,
+		title: 'Tall 250ml',
+		closure: '24/410 closure',
+		pet: 'PET',
+		clear: 'Clear',
+		dimensions: '175 x Ø48',
+		mixture: '435 minimum',
+		images: [
+			'/products/tall/tall-250ml-150ml.png',
+			'/products/tall/tall-250ml-150ml-2.png',
+		],
+		type: 'tall',
+	},
+	{
+		id: 55,
+		title: 'Soft 250ml',
+		closure: '24/410 closure',
+		pet: 'LDPE',
+		clear: 'Natural',
+		dimensions: '175 x Ø50',
+		mixture: '420 minimum',
+		images: [
+			'/products/soft-squeeze/soft-squeeze-250ml.png',
+			'/products/soft-squeeze/soft-squeeze-250ml-2.png',
+			'/products/soft-squeeze/soft-squeeze-250ml-3.png',
+		],
+		type: 'soft-squeeze',
+	},
+	{
+		id: 33,
+		title: 'Oval 300ml',
+		closure: '24/410 closure',
+		pet: 'PVC',
+		clear: 'Clear',
+		dimensions: '115 x Ø100',
+		mixture: '7000 minimum',
+		images: [
+			'/products/oval/oval-300ml.png',
+			'/products/oval/oval-300ml-2.png',
+		],
+		type: 'oval',
+	},
+	{
+		id: 48,
+		title: 'Rectangular 300ml',
+		closure: '24/410 closure',
+		pet: 'PET',
+		clear: 'Clear',
+		dimensions: '131 x Ø69 x Ø42',
+		mixture: '408 minimum',
+		images: [
+			'/products/Rectangular/Rectangular-300ml.png',
+			'/products/Rectangular/Rectangular-300ml-2.png',
+		],
+		type: 'rectangular',
 	},
 ];
 
