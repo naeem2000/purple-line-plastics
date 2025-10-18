@@ -16,6 +16,8 @@
 	--hero-bg: url('/images/hero-bg.png');
 	--best-sellers-bg: url('/images/best-sellers-bg.png');
 	--hospitality-bg: url('/images/hospitality-bg.png');
+	--closures-bg: url('/images/closures-bg.png');
+	--jars-bg: url('/images/jars-bg.png');
 
 	/* fonts */
 	--inter: 'Inter', sans-serif;
@@ -28,7 +30,7 @@
 }
 
 .max-width {
-	max-width: 1660px;
+	max-width: 1920px;
 	margin: 0 auto;
 	padding-left: 100px;
 	padding-right: 100px;
