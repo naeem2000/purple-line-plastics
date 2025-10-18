@@ -5,7 +5,7 @@ export const routes = {
 	jars: '/jars',
 	tabletContainers: '/tablet-containers',
 	buoyancy: '/buoyancy',
-	custom: '/custom',
+	topSellers: '/top-sellers',
 	contactUs: '/contact-us',
 	social: '/social',
 	emyezweni: '/emyezweni',

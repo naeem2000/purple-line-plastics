@@ -22,36 +22,33 @@ export default function BestSellers() {
 								<Image
 									width={450}
 									height={450}
-									alt={item.product}
-									src={item.image}
+									alt={item.title}
+									src={item.images[0]}
 									className='rounded-[8px]'
 								/>
 								<p
 									className='font-[Inter,sans-serif] text-lg lg:text-[22px] leading-[100%] tracking-[0%] mt-8'
 									style={{ fontWeight: 900 }}
 								>
-									{item.product}
+									{item.title}
 								</p>
 								<br />
-								{item.description.map((item, index) => {
-									return (
-										<div key={index}>
-											<p className='text-lg lg:text-[22px] font-[Inter,sans-serif] leading-[120%] tracking-[0%]'>
-												{item.closure}
-												<br />
-												{item.pet}
-												<br />
-												{item.clear}
-												<br />
-												{item.dimensions}
-												<br />
-												{item.mixture}
-											</p>
-										</div>
-									);
-								})}
+								<div key={index}>
+									<p className='text-lg lg:text-[22px] font-[Inter,sans-serif] leading-[120%] tracking-[0%]'>
+										{item.closure}
+										<br />
+										{item.pet}
+										<br />
+										{item.clear}
+										<br />
+										{item.dimensions}
+										<br />
+										{item.mixture}
+									</p>
+								</div>
+
 								<div className='flex flex-col mt-6 gap-5'>
-									<Link href={`/product/${index}`}>
+									<Link href={`/product/${item.id}`}>
 										<Button variant='light' label='View Product' />
 									</Link>
 									<Link href={routes.contactUs}>

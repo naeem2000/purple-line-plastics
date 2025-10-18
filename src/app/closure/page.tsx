@@ -1,15 +1,15 @@
+import Closures from './Closures';
 import { Metadata } from 'next';
-import Bottles from './Bottles';
 import React from 'react';
 
 export const metadata: Metadata = {
-	title: 'Purple Line Plastics | Bottles',
+	title: 'Purple Line Plastics | Closures',
 };
 
 export default function page() {
 	return (
 		<main>
-			<Bottles />
+			<Closures />
 		</main>
 	);
 }

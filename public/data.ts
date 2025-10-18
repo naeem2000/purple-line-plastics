@@ -36,7 +36,42 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Closure',
+		link: routes.closure,
+	},
+	{
+		text: 'Jars',
+		link: routes.jars,
+	},
+	{
+		text: 'Tablet Containers',
+		link: routes.tabletContainers,
+	},
+	{
+		text: 'Buoyancy',
+		link: routes.buoyancy,
+	},
+	{
+		text: 'Top Sellers',
+		link: routes.topSellers,
+	},
+	{
+		text: 'Social',
 		link: '#',
+	},
+	{
+		text: 'Contact us',
+		link: routes.contactUs,
+	},
+];
+
+export const footerNavItems: NavItems = [
+	{
+		text: 'Bottles',
+		link: routes.bottles,
+	},
+	{
+		text: 'Closures',
+		link: routes.closure,
 	},
 	{
 		text: 'Jars',
@@ -52,114 +87,7 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Top Sellers',
-		link: '#',
-	},
-	{
-		text: 'Social',
-		link: '#',
-	},
-	{
-		text: 'Contact us',
-		link: routes.contactUs,
-	},
-];
-
-export const footerNavItems: NavItems = [
-	{
-		text: 'Bottles',
-		link: '#',
-	},
-	{
-		text: 'Closures',
-		link: '#',
-	},
-	{
-		text: 'Jars',
-		link: '#',
-	},
-	{
-		text: 'Tablet Containers',
-		link: '#',
-	},
-	{
-		text: 'Buoyancy',
-		link: '#',
-	},
-	{
-		text: 'Custom',
-		link: '#',
-	},
-];
-
-export const bestSellers: BestSellers = [
-	{
-		image: '/products/tall-250ml.png',
-		product: 'Tall 250ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '175 x Ø 48',
-				mixture: '435 minimum',
-			},
-		],
-		productType: 'tall',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
-	},
-	{
-		image: '/products/bullet-500ml.png',
-		product: 'Bullet 500ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '177 x Ø60 x Ø60',
-				mixture: '490 minimum',
-			},
-		],
-		productType: 'bullet',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
-	},
-	{
-		image: '/products/boston-50ml.png',
-		product: 'Boston 50ml',
-		description: [
-			{
-				closure: '24/410 closure',
-				pet: 'PET',
-				clear: 'Clear',
-				dimensions: '128 x Ø46 x Ø46',
-				mixture: '540 minimum',
-			},
-		],
-		productType: 'boston',
-		viewProduct: '#',
-		enquire: '#',
-		pageProperties: [
-			{
-				type: 'round',
-				productCode: '',
-				colour: 'clear',
-			},
-		],
+		link: routes.topSellers,
 	},
 ];
 
@@ -167,6 +95,7 @@ export const products = [
 	//bell
 	{
 		id: 0,
+		productCode: '',
 		title: 'Bell 500ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -182,6 +111,7 @@ export const products = [
 	//Boston
 	{
 		id: 1,
+		productCode: '',
 		title: 'Boston 30ml',
 		closure: '18/415 closure',
 		pet: 'PET',
@@ -195,6 +125,7 @@ export const products = [
 	},
 	{
 		id: 2,
+		productCode: '',
 		title: 'Boston 250ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -206,6 +137,7 @@ export const products = [
 	},
 	{
 		id: 3,
+		productCode: '',
 		title: 'Boston 300ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -217,6 +149,7 @@ export const products = [
 	},
 	{
 		id: 4,
+		productCode: '',
 		title: 'Boston 500ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -229,6 +162,7 @@ export const products = [
 	//bullet
 	{
 		id: 5,
+		productCode: '',
 		title: 'Bullet 50ml',
 		closure: '24/410 closure',
 		pet: 'HDPE',
@@ -243,6 +177,7 @@ export const products = [
 	},
 	{
 		id: 6,
+		productCode: '',
 		title: 'Bullet 250ml',
 		closure: '24/410 closure',
 		pet: 'HDPE',
@@ -259,6 +194,7 @@ export const products = [
 	},
 	{
 		id: 7,
+		productCode: '',
 		title: 'Bullet 750ml',
 		closure: '28/410 closure',
 		pet: 'HDPE',
@@ -273,6 +209,7 @@ export const products = [
 	},
 	{
 		id: 8,
+		productCode: '',
 		title: 'Bullet 500ml',
 		closure: '28/410 closure',
 		pet: 'HDPE',
@@ -288,6 +225,7 @@ export const products = [
 	},
 	{
 		id: 9,
+		productCode: '',
 		title: 'Buoyancy',
 		closure: 'Sealed',
 		pet: 'HDPE',
@@ -303,6 +241,7 @@ export const products = [
 	//closures-b
 	{
 		id: 10,
+		productCode: '',
 		title: 'Oval Flip',
 		closure: 'Custom',
 		pet: 'PP',
@@ -318,6 +257,7 @@ export const products = [
 	},
 	{
 		id: 11,
+		productCode: '',
 		title: 'Metal',
 		closure: '20, 24 & 28',
 		pet: 'Metal',
@@ -328,6 +268,7 @@ export const products = [
 	},
 	{
 		id: 12,
+		productCode: '',
 		title: 'Big Flip',
 		closure: '24 / 410',
 		pet: 'PP',
@@ -341,6 +282,7 @@ export const products = [
 	},
 	{
 		id: 13,
+		productCode: '',
 		title: 'Overcap',
 		closure: 'Various Sizes',
 		pet: 'PP',
@@ -351,6 +293,7 @@ export const products = [
 	},
 	{
 		id: 14,
+		productCode: '',
 		title: 'Flute',
 		closure: '24 / 410',
 		pet: 'PP',
@@ -362,6 +305,7 @@ export const products = [
 	//hosp-30s
 	{
 		id: 15,
+		productCode: '',
 		title: '30 Tottle',
 		closure: 'Clip-on',
 		pet: 'PP',
@@ -376,6 +320,7 @@ export const products = [
 	},
 	{
 		id: 16,
+		productCode: '',
 		title: '30 Boston',
 		closure: '18/415',
 		pet: 'PET',
@@ -389,6 +334,7 @@ export const products = [
 	},
 	{
 		id: 17,
+		productCode: '',
 		title: 'Straight 30ml',
 		closure: '18/415',
 		pet: 'HDPE',
@@ -401,6 +347,7 @@ export const products = [
 	//hosp-50s
 	{
 		id: 18,
+		productCode: '',
 		title: '50 Tall',
 		closure: '18/415',
 		pet: 'PET',
@@ -415,6 +362,7 @@ export const products = [
 	},
 	{
 		id: 19,
+		productCode: '',
 		title: '50 Bullet',
 		closure: '24/410',
 		pet: 'HDPE',
@@ -430,6 +378,7 @@ export const products = [
 	},
 	{
 		id: 19,
+		productCode: '',
 		title: 'Rectangular 50ml',
 		closure: '18 / 415 closure',
 		pet: 'PVC',
@@ -444,6 +393,7 @@ export const products = [
 	},
 	{
 		id: 20,
+		productCode: '',
 		title: 'Tottle 50ml',
 		closure: 'Oval Flip-Cap',
 		pet: 'PP',
@@ -461,6 +411,7 @@ export const products = [
 	//jars-large
 	{
 		id: 21,
+		productCode: '',
 		title: 'Jar 125g',
 		closure: '61mm closure',
 		pet: 'PP',
@@ -472,6 +423,7 @@ export const products = [
 	},
 	{
 		id: 22,
+		productCode: '',
 		title: 'Jar 500g',
 		closure: '83mm closure',
 		pet: 'PP',
@@ -486,6 +438,7 @@ export const products = [
 	},
 	{
 		id: 23,
+		productCode: '',
 		title: 'Jar 1kg',
 		closure: '83mm closure',
 		pet: 'HDPE',
@@ -498,6 +451,7 @@ export const products = [
 	//jars pet
 	{
 		id: 24,
+		productCode: '',
 		title: '175ml Jars',
 		closure: '38mm closure - PS seal',
 		pet: 'PET',
@@ -509,6 +463,7 @@ export const products = [
 	},
 	{
 		id: 25,
+		productCode: '',
 		title: '175ml Jars',
 		closure: '38mm closure - PS seal',
 		pet: 'PET',
@@ -521,6 +476,7 @@ export const products = [
 	// jars small
 	{
 		id: 26,
+		productCode: '',
 		title: 'Jar 10g',
 		closure: '-',
 		pet: 'Polystyrene (PS)',
@@ -532,6 +488,7 @@ export const products = [
 	},
 	{
 		id: 27,
+		productCode: '',
 		title: '10ml Cream Jar',
 		closure: 'Screw-on lid',
 		pet: 'Polystyrene (PS)',
@@ -543,6 +500,7 @@ export const products = [
 	},
 	{
 		id: 28,
+		productCode: '',
 		title: '25ml Cream Jar',
 		closure: 'Screw-on lid',
 		pet: 'Polystyrene (PS)',
@@ -554,6 +512,7 @@ export const products = [
 	},
 	{
 		id: 29,
+		productCode: '',
 		title: 'Jar 50g',
 		pet: 'PP Inner',
 		clear: 'White / Natural',
@@ -567,6 +526,7 @@ export const products = [
 	},
 	{
 		id: 30,
+		productCode: '',
 		title: 'Jar 100g',
 		closure: '65mm closure',
 		pet: 'PP',
@@ -579,6 +539,7 @@ export const products = [
 	//oval
 	{
 		id: 31,
+		productCode: '',
 		title: 'Oval 150ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -594,6 +555,7 @@ export const products = [
 	},
 	{
 		id: 32,
+		productCode: '',
 		title: 'Oval 250ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -608,6 +570,7 @@ export const products = [
 	},
 	{
 		id: 33,
+		productCode: '',
 		title: 'Oval 300ml',
 		closure: '24/410 closure',
 		pet: 'PVC',
@@ -622,6 +585,7 @@ export const products = [
 	},
 	{
 		id: 34,
+		productCode: '',
 		title: 'Oval 500ml',
 		closure: '24/410 & 28/410 closure',
 		pet: 'PVC',
@@ -634,6 +598,7 @@ export const products = [
 	//pilfer
 	{
 		id: 35,
+		productCode: '',
 		title: 'Round Pilfer 20ml',
 		closure: 'Pilfer /2, /9 Dropper',
 		pet: 'PVC',
@@ -645,6 +610,7 @@ export const products = [
 	},
 	{
 		id: 36,
+		productCode: '',
 		title: 'Round Pilfer 20ml',
 		closure: 'Pilfer /2, /9 Dropper',
 		pet: 'PVC',
@@ -659,6 +625,7 @@ export const products = [
 	},
 	{
 		id: 37,
+		productCode: '',
 		title: 'Round Pilfer 25ml',
 		closure: 'Pilfer /3',
 		pet: 'PET',
@@ -673,6 +640,7 @@ export const products = [
 	},
 	{
 		id: 38,
+		productCode: '',
 		title: 'Round Pilfer 100ml',
 		closure: 'Pilfer /3',
 		pet: 'PET',
@@ -688,6 +656,7 @@ export const products = [
 	//pumps
 	{
 		id: 39,
+		productCode: '',
 		title: 'Spray Pumps',
 		closure: 'Various sizes',
 		clear: 'Various colors',
@@ -700,6 +669,7 @@ export const products = [
 	},
 	{
 		id: 40,
+		productCode: '',
 		title: 'Triggers',
 		closure: '28/410',
 		clear: 'Natural',
@@ -709,6 +679,7 @@ export const products = [
 	},
 	{
 		id: 41,
+		productCode: '',
 		title: 'Lotion Pumps',
 		closure: '24/410 / 28/410',
 		clear: 'Natural/Black/White',
@@ -718,6 +689,7 @@ export const products = [
 	},
 	{
 		id: 42,
+		productCode: '',
 		title: 'Flips',
 		closure: '24/410 / 28/410',
 		pet: 'PP',
@@ -728,6 +700,7 @@ export const products = [
 	},
 	{
 		id: 43,
+		productCode: '',
 		title: 'Smooth',
 		closure: '24/410',
 		pet: 'PP',
@@ -738,6 +711,7 @@ export const products = [
 	},
 	{
 		id: 44,
+		productCode: '',
 		title: 'Tall',
 		closure: '24/410',
 		pet: 'PP',
@@ -748,6 +722,7 @@ export const products = [
 	},
 	{
 		id: 45,
+		productCode: '',
 		title: "Ridge 30's",
 		closure: '38',
 		pet: 'HDPE',
@@ -759,6 +734,7 @@ export const products = [
 	//rectangular
 	{
 		id: 46,
+		productCode: '',
 		title: 'Rectangular 50ml',
 		closure: '18/415 closure',
 		pet: 'PVC',
@@ -773,6 +749,7 @@ export const products = [
 	},
 	{
 		id: 47,
+		productCode: '',
 		title: 'Rectangular 200ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -780,13 +757,14 @@ export const products = [
 		dimensions: '129 x Ø59 x Ø35',
 		mixture: '560 minimum',
 		images: [
-			'/products/pumps/Rectangular-200ml.png',
-			'/products/pumps/Rectangular-200ml-2.png',
+			'/products/Rectangular/Rectangular-200ml.png',
+			'/products/Rectangular/Rectangular-200ml-2.png',
 		],
 		type: 'rectangular',
 	},
 	{
 		id: 48,
+		productCode: '',
 		title: 'Rectangular 300ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -801,6 +779,7 @@ export const products = [
 	},
 	{
 		id: 49,
+		productCode: '',
 		title: 'Rectangular 500ml',
 		closure: '24/410 closure',
 		pet: 'PVC',
@@ -816,6 +795,7 @@ export const products = [
 	//securi-tainers
 	{
 		id: 50,
+		productCode: '',
 		title: 'Tablet Container 62 x 152',
 		clear: 'White',
 		dimensions: 'Ø62 x 152',
@@ -828,6 +808,7 @@ export const products = [
 	},
 	{
 		id: 51,
+		productCode: '',
 		title: 'Tablet Container 35 x 82',
 		clear: 'White',
 		dimensions: 'Ø35 x 82',
@@ -840,6 +821,7 @@ export const products = [
 	},
 	{
 		id: 52,
+		productCode: '',
 		title: 'Tablet Container 35 x 63',
 		clear: 'White',
 		dimensions: 'Ø35 x 63',
@@ -852,6 +834,7 @@ export const products = [
 	},
 	{
 		id: 53,
+		productCode: '',
 		title: 'Tablet Container 35 x 52',
 		clear: 'White',
 		dimensions: 'Ø35 x 52',
@@ -864,6 +847,7 @@ export const products = [
 	},
 	{
 		id: 54,
+		productCode: '',
 		title: 'Tablet Container 62 x 90',
 		clear: 'White',
 		dimensions: 'Ø62 x 90',
@@ -877,6 +861,7 @@ export const products = [
 	//soft-squeeze
 	{
 		id: 55,
+		productCode: '',
 		title: 'Soft 250ml',
 		closure: '24/410 closure',
 		pet: 'LDPE',
@@ -892,6 +877,7 @@ export const products = [
 	},
 	{
 		id: 56,
+		productCode: '',
 		title: 'Soft 100ml',
 		closure: '24/410 closure',
 		pet: 'LDPE',
@@ -907,6 +893,7 @@ export const products = [
 	//square
 	{
 		id: 57,
+		productCode: '',
 		title: 'Square 50ml',
 		closure: '18/415 closure',
 		pet: 'PVC',
@@ -921,6 +908,7 @@ export const products = [
 	},
 	{
 		id: 58,
+		productCode: '',
 		title: 'Square 100ml',
 		closure: '24/410 closure',
 		pet: 'PVC',
@@ -935,6 +923,7 @@ export const products = [
 	},
 	{
 		id: 59,
+		productCode: '',
 		title: 'Square 200ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -949,6 +938,7 @@ export const products = [
 	},
 	{
 		id: 56,
+		productCode: '',
 		title: 'Square 300ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -960,6 +950,7 @@ export const products = [
 	},
 	{
 		id: 57,
+		productCode: '',
 		title: 'Square 500ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -975,6 +966,7 @@ export const products = [
 	//straight
 	{
 		id: 58,
+		productCode: '',
 		title: 'Straight 30ml',
 		closure: '18/415 closure',
 		pet: 'HDPE',
@@ -986,6 +978,7 @@ export const products = [
 	},
 	{
 		id: 59,
+		productCode: '',
 		title: 'Straight 50ml',
 		closure: '18/415 closure',
 		pet: 'PVC',
@@ -1000,6 +993,7 @@ export const products = [
 	},
 	{
 		id: 60,
+		productCode: '',
 		title: 'Straight 250ml',
 		closure: '24/410 closure',
 		pet: 'HDPE',
@@ -1014,6 +1008,7 @@ export const products = [
 	},
 	{
 		id: 61,
+		productCode: '',
 		title: 'Straight 250ml PET',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -1025,6 +1020,7 @@ export const products = [
 	},
 	{
 		id: 62,
+		productCode: '',
 		title: 'Straight 500ml PET',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -1040,7 +1036,8 @@ export const products = [
 	//tall
 	{
 		id: 63,
-		title: 'Tall 250ml/150ml',
+		productCode: '',
+		title: 'Tall 250ml',
 		closure: '24/410 closure',
 		pet: 'PET',
 		clear: 'Clear',
@@ -1054,6 +1051,7 @@ export const products = [
 	},
 	{
 		id: 64,
+		productCode: '',
 		title: 'Tall 100ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -1065,6 +1063,7 @@ export const products = [
 	},
 	{
 		id: 65,
+		productCode: '',
 		title: 'Tall 50ml',
 		closure: '18/415 closure',
 		pet: 'PVC',
@@ -1077,6 +1076,7 @@ export const products = [
 	//taper
 	{
 		id: 66,
+		productCode: '',
 		title: 'Taper 300ml',
 		closure: '24/410 closure',
 		pet: 'PET',
@@ -1092,6 +1092,7 @@ export const products = [
 	//tottle
 	{
 		id: 67,
+		productCode: '',
 		title: 'Tottle 30ml',
 		closure: 'Tottle cap',
 		pet: 'PP',
@@ -1103,6 +1104,7 @@ export const products = [
 	},
 	{
 		id: 68,
+		productCode: '',
 		title: 'Tottle 50ml',
 		closure: 'Oval Flip-Cap',
 		pet: 'PP',
@@ -1119,6 +1121,7 @@ export const products = [
 	},
 	{
 		id: 69,
+		productCode: '',
 		title: 'Tottle 250ml',
 		closure: 'Oval Flip-Cap',
 		pet: 'HDPE',
@@ -1130,6 +1133,70 @@ export const products = [
 			'/products/tottle/tottle-250-2.png',
 		],
 		type: 'tottle',
+	},
+];
+
+export const bestSellers = [
+	{
+		id: 63,
+		productCode: '',
+		title: 'Tall 250ml',
+		closure: '24/410 closure',
+		pet: 'PET',
+		clear: 'Clear',
+		dimensions: '175 x Ø48',
+		mixture: '435 minimum',
+		images: [
+			'/products/tall/tall-250ml-150ml.png',
+			'/products/tall/tall-250ml-150ml-2.png',
+		],
+		type: 'tall',
+	},
+	{
+		id: 55,
+		productCode: '',
+		title: 'Soft 250ml',
+		closure: '24/410 closure',
+		pet: 'LDPE',
+		clear: 'Natural',
+		dimensions: '175 x Ø50',
+		mixture: '420 minimum',
+		images: [
+			'/products/soft-squeeze/soft-squeeze-250ml.png',
+			'/products/soft-squeeze/soft-squeeze-250ml-2.png',
+			'/products/soft-squeeze/soft-squeeze-250ml-3.png',
+		],
+		type: 'soft-squeeze',
+	},
+	{
+		id: 33,
+		productCode: '',
+		title: 'Oval 300ml',
+		closure: '24/410 closure',
+		pet: 'PVC',
+		clear: 'Clear',
+		dimensions: '115 x Ø100',
+		mixture: '7000 minimum',
+		images: [
+			'/products/oval/oval-300ml.png',
+			'/products/oval/oval-300ml-2.png',
+		],
+		type: 'oval',
+	},
+	{
+		id: 48,
+		productCode: '',
+		title: 'Rectangular 300ml',
+		closure: '24/410 closure',
+		pet: 'PET',
+		clear: 'Clear',
+		dimensions: '131 x Ø69 x Ø42',
+		mixture: '408 minimum',
+		images: [
+			'/products/Rectangular/Rectangular-300ml.png',
+			'/products/Rectangular/Rectangular-300ml-2.png',
+		],
+		type: 'rectangular',
 	},
 ];
 
