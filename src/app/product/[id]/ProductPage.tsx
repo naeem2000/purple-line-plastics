@@ -1,18 +1,21 @@
 'use client';
 import { bestSellers, mightLike, products } from '../../../../public/data';
+import { routes } from '../../../../public/routes';
 import { useParams } from 'next/navigation';
 import { Button } from '@/stories/Button';
 import Image from 'next/image';
-import React from 'react';
 import Link from 'next/link';
-import { routes } from '../../../../public/routes';
+import React from 'react';
 
 export default function ProductPage() {
 	const params = useParams();
+
 	const productId = parseInt(params.id as string);
+
 	const product =
 		bestSellers.find((item) => item.id === productId) ||
 		products.find((item) => item.id === productId);
+
 	if (!product) {
 		return (
 			<section className='max-width text-center py-11'>
@@ -50,17 +53,22 @@ export default function ProductPage() {
 						>
 							Description:
 						</p>
-
 						<p className='text-xl leading-[140%] tracking-[0%]'>
 							{product.closure}
-							<br />
-							{product.pet} <br />
-							{product.clear} <br />
-							{product.dimensions} <br />
+						</p>
+						<p className='text-xl leading-[140%] tracking-[0%]'>
+							{product.pet}
+						</p>
+						<p className='text-xl leading-[140%] tracking-[0%]'>
+							{product.clear}
+						</p>
+						<p className='text-xl leading-[140%] tracking-[0%]'>
+							{product.dimensions}
+						</p>
+						<p className='text-xl leading-[140%] tracking-[0%]'>
 							{product.mixture}
 						</p>
 					</div>
-
 					<Link href={routes.contactUs}>
 						<Button variant='dark' label='Enquire now' />
 					</Link>
@@ -90,7 +98,6 @@ export default function ProductPage() {
 				>
 					You might like
 				</h2>
-				{/* <Button variant='dark' className='mt-2' label='Enquire now' /> */}
 				<div className='grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-5 mb-10 lg:mb-20 place-items-center'>
 					{mightLike.map((item) => (
 						<Link key={item.id} href={`/product/${item.id}`}>

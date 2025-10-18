@@ -1,15 +1,15 @@
-import TopSellers from './TopSellers';
 import { Metadata } from 'next';
+import Bottles from './Bottles';
 import React from 'react';
 
 export const metadata: Metadata = {
-	title: 'Purple Line Plastics | Top sellers',
+	title: 'Purple Line Plastics | Bottles',
 };
 
 export default function page() {
 	return (
 		<main>
-			<TopSellers />
+			<Bottles />
 		</main>
 	);
 }

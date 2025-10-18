@@ -36,19 +36,19 @@ export const navItems: NavItems = [
 	},
 	{
 		text: 'Closure',
-		link: '#',
+		link: routes.closure,
 	},
 	{
 		text: 'Jars',
-		link: '#',
+		link: routes.jars,
 	},
 	{
 		text: 'Tablet Containers',
-		link: '#',
+		link: routes.tabletContainers,
 	},
 	{
 		text: 'Buoyancy',
-		link: '#',
+		link: routes.buoyancy,
 	},
 	{
 		text: 'Top Sellers',
@@ -67,11 +67,11 @@ export const navItems: NavItems = [
 export const footerNavItems: NavItems = [
 	{
 		text: 'Bottles',
-		link: '#',
+		link: routes.bottles,
 	},
 	{
 		text: 'Closures',
-		link: '#',
+		link: routes.closure,
 	},
 	{
 		text: 'Jars',
@@ -86,8 +86,8 @@ export const footerNavItems: NavItems = [
 		link: '#',
 	},
 	{
-		text: 'Custom',
-		link: '#',
+		text: 'Top Sellers',
+		link: routes.topSellers,
 	},
 ];
 
