@@ -1,5 +1,136 @@
+import { routes } from '../../../public/routes';
+import { products } from '../../../public/data';
+import { Button } from '@/stories/Button';
+import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Bottles() {
-	return <section className='max-width'>Bottles</section>;
+	const bullet = products.filter((item) => item.type === 'bullet');
+	const boston = products.filter((item) => item.type === 'boston');
+	const bell = products.filter((item) => item.type === 'bell');
+
+	const bostonBell = [...boston, ...bell];
+
+	if (bullet.length === 0) {
+		return (
+			<section className='max-width text-center py-11'>
+				<h1 className='text-2xl'>No stock at the moment</h1>
+			</section>
+		);
+	}
+	return (
+		<section className='max-width'>
+			<div className='pt-10 lg:pt-[75px]'>
+				<h2 className='text-[40px] leading-[100%] tracking-[0%] font-[Inter,sans-serif] font-black mb-[35px]'>
+					Bullet
+				</h2>
+				<div className='grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-start gap-5 lg:gap-10 '>
+					{bullet.map((item, index) => {
+						return (
+							<div
+								className='flex items-start justify-between h-full flex-col w-full max-w-[410px]'
+								key={index}
+							>
+								<div>
+									<Image
+										src={item.images[0]}
+										alt={item.title}
+										width={450}
+										height={450}
+										className='rounded-sm'
+									/>
+									<div className='py-5'>
+										<p className='text-[22px] font-[Inter,sans-serif] font-black'>
+											{item.title}
+										</p>
+										<br />
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.pet}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.clear}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.dimensions}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.mixture}
+										</p>
+									</div>
+								</div>
+								<div className='flex flex-col gap-2 lg:gap-5 w-full'>
+									<Link href={`/product/${item.id}`}>
+										<Button
+											variant='dark'
+											className='w-full'
+											label='View Product'
+										/>
+									</Link>
+									<Link href={routes.contactUs}>
+										<Button variant='dark' label='Enquire' />
+									</Link>
+								</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+			<div className='py-10 lg:py-[75px]'>
+				<h2 className='text-[40px] leading-[100%] tracking-[0%] font-[Inter,sans-serif] font-black mb-[35px]'>
+					Boston & Bell
+				</h2>
+				<div className='grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-start gap-5 lg:gap-10 '>
+					{bostonBell.map((item, index) => {
+						return (
+							<div
+								className='flex items-start justify-between h-full flex-col w-full max-w-[410px]'
+								key={index}
+							>
+								<div>
+									<Image
+										src={item.images[0]}
+										alt={item.title}
+										width={450}
+										height={450}
+										className='rounded-sm'
+									/>
+									<div className='py-5'>
+										<p className='text-[22px] font-[Inter,sans-serif] font-black'>
+											{item.title}
+										</p>
+										<br />
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.pet}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.clear}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.dimensions}
+										</p>
+										<p className='text-[22px] font-[Inter,sans-serif] '>
+											{item.mixture}
+										</p>
+									</div>
+								</div>
+								<div className='flex flex-col gap-2 lg:gap-5 w-full'>
+									<Link href={`/product/${item.id}`}>
+										<Button
+											variant='dark'
+											className='w-full'
+											label='View Product'
+										/>
+									</Link>
+									<Link href={routes.contactUs}>
+										<Button variant='dark' label='Enquire' />
+									</Link>
+								</div>
+							</div>
+						);
+					})}
+				</div>
+			</div>
+		</section>
+	);
 }

@@ -68,7 +68,7 @@ export default function TopSellers() {
 							Closures
 						</h2>
 						<div className='w-full bg-no-repeat h-[500px] lg:h-[844px] bg-[image:var(--closures-bg)] bg-center bg-cover flex items-end justify-center p-11 mt-8'>
-							<Link href={routes.contactUs}>
+							<Link href={routes.closure}>
 								<Button variant='white' label='View Products' />
 							</Link>
 						</div>
@@ -78,7 +78,7 @@ export default function TopSellers() {
 							Jars
 						</h2>
 						<div className='w-full bg-no-repeat h-[500px] lg:h-[844px] bg-[image:var(--jars-bg)] bg-center bg-cover flex items-end justify-center p-11 mt-8'>
-							<Link href={routes.contactUs}>
+							<Link href={routes.jars}>
 								<Button variant='white' label='View Products' />
 							</Link>
 						</div>
