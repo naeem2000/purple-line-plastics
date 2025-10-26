@@ -59,16 +59,16 @@ export default function Bottles() {
 										</p>
 									</div>
 								</div>
-								<div className='flex flex-col gap-2 lg:gap-5 w-full'>
-									<Link href={`/product/${item.id}`}>
+								<div className='flex gap-2 lg:gap-5 w-full'>
+									<Link className='w-full' href={`/product/${item.id}`}>
 										<Button
 											variant='dark'
 											className='w-full'
 											label='View Product'
 										/>
 									</Link>
-									<Link href={routes.contactUs}>
-										<Button variant='dark' label='Enquire' />
+									<Link className='w-full' href={routes.contactUs}>
+										<Button variant='dark' className='w-full' label='Enquire' />
 									</Link>
 								</div>
 							</div>
@@ -114,16 +114,16 @@ export default function Bottles() {
 										</p>
 									</div>
 								</div>
-								<div className='flex flex-col gap-2 lg:gap-5 w-full'>
-									<Link href={`/product/${item.id}`}>
+								<div className='flex gap-2 lg:gap-5 w-full'>
+									<Link className='w-full' href={`/product/${item.id}`}>
 										<Button
 											variant='dark'
 											className='w-full'
 											label='View Product'
 										/>
 									</Link>
-									<Link href={routes.contactUs}>
-										<Button variant='dark' label='Enquire' />
+									<Link className='w-full' href={routes.contactUs}>
+										<Button variant='dark' className='w-full' label='Enquire' />
 									</Link>
 								</div>
 							</div>

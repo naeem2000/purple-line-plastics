@@ -31,6 +31,10 @@ export type BestSellers = {
 
 export const navItems: NavItems = [
 	{
+		text: 'Top Sellers',
+		link: routes.topSellers,
+	},
+	{
 		text: 'Bottles',
 		link: routes.bottles,
 	},
@@ -50,10 +54,7 @@ export const navItems: NavItems = [
 		text: 'Buoyancy',
 		link: routes.buoyancy,
 	},
-	{
-		text: 'Top Sellers',
-		link: routes.topSellers,
-	},
+
 	{
 		text: 'Social',
 		link: '#',
@@ -261,7 +262,7 @@ export const products = [
 		title: 'Metal',
 		closure: '20, 24 & 28',
 		pet: 'Metal',
-		clear: 'Silver/White/Black/Gold',
+		clear: 'Silver / White / Black / Gold',
 		mixture: '420 minimum',
 		images: ['/products/closures-b/metal.png'],
 		type: 'closures-b',
