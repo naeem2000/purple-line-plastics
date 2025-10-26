@@ -14,5 +14,6 @@ export const Default: Story = {
 	args: {
 		isNavOpen: true,
 		setIsNavOpen: () => null,
+		path: '/',
 	},
 };
