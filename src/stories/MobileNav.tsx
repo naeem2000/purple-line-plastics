@@ -3,16 +3,14 @@ import { AnimatePresence, motion } from 'motion/react';
 import Link from 'next/link';
 import React from 'react';
 import { navItems } from '../../public/data';
-import { usePathname } from 'next/navigation';
 
 type Props = {
 	setIsNavOpen: (value: boolean) => void;
 	isNavOpen: boolean;
+	path: string;
 };
 
-export default function MobileNav({ setIsNavOpen, isNavOpen }: Props) {
-	const path = usePathname();
-
+export default function MobileNav({ setIsNavOpen, isNavOpen, path }: Props) {
 	return (
 		<AnimatePresence>
 			{isNavOpen ? (

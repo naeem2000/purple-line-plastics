@@ -52,7 +52,7 @@ export default function TopSellers() {
 										</p>
 									</div>
 								</div>
-								<div className='flex gap-2 lg:gap-5 w-full'>
+								<div className='flex flex-col 2xl:flex-row gap-2 lg:gap-5 w-full'>
 									<Link className='w-full' href={`/product/${item.id}`}>
 										<Button
 											variant='dark'
@@ -127,7 +127,7 @@ export default function TopSellers() {
 										</p>
 									</div>
 								</div>
-								<div className='flex gap-2 lg:gap-5 w-full'>
+								<div className='flex flex-col 2xl:flex-row gap-2 lg:gap-5 w-full'>
 									<Link className='w-full' href={`/product/${item.id}`}>
 										<Button
 											variant='dark'

@@ -15,7 +15,7 @@ export default function BestSellers() {
 				>
 					OUR BEST SELLERS
 				</h3>
-				<div className='flex items-center flex-col lg:flex-row justify-center gap-10 lg:gap-5'>
+				<div className='grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-start gap-3 lg:gap-10 py-5 lg:py-16'>
 					{bestSellers.map((item, index) => {
 						return (
 							<div key={index}>

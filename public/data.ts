@@ -378,7 +378,7 @@ export const products = [
 		type: 'hosp-50s',
 	},
 	{
-		id: 19,
+		id: 20,
 		productCode: '',
 		title: 'Rectangular 50ml',
 		closure: '18 / 415 closure',
@@ -393,7 +393,7 @@ export const products = [
 		type: 'hosp-50s',
 	},
 	{
-		id: 20,
+		id: 21,
 		productCode: '',
 		title: 'Tottle 50ml',
 		closure: 'Oval Flip-Cap',
@@ -411,7 +411,7 @@ export const products = [
 	},
 	//jars-large
 	{
-		id: 21,
+		id: 22,
 		productCode: '',
 		title: 'Jar 125g',
 		closure: '61mm closure',
@@ -423,7 +423,7 @@ export const products = [
 		type: 'jars-large',
 	},
 	{
-		id: 22,
+		id: 23,
 		productCode: '',
 		title: 'Jar 500g',
 		closure: '83mm closure',
@@ -438,7 +438,7 @@ export const products = [
 		type: 'jars-large',
 	},
 	{
-		id: 23,
+		id: 24,
 		productCode: '',
 		title: 'Jar 1kg',
 		closure: '83mm closure',
@@ -451,7 +451,7 @@ export const products = [
 	},
 	//jars pet
 	{
-		id: 24,
+		id: 25,
 		productCode: '',
 		title: '175ml Jars',
 		closure: '38mm closure - PS seal',
@@ -463,7 +463,7 @@ export const products = [
 		type: 'jars-pet',
 	},
 	{
-		id: 25,
+		id: 26,
 		productCode: '',
 		title: '175ml Jars',
 		closure: '38mm closure - PS seal',
@@ -476,7 +476,7 @@ export const products = [
 	},
 	// jars small
 	{
-		id: 26,
+		id: 27,
 		productCode: '',
 		title: 'Jar 10g',
 		closure: '-',
@@ -488,7 +488,7 @@ export const products = [
 		type: 'jars-small',
 	},
 	{
-		id: 27,
+		id: 28,
 		productCode: '',
 		title: '10ml Cream Jar',
 		closure: 'Screw-on lid',
@@ -500,7 +500,7 @@ export const products = [
 		type: 'jars-small',
 	},
 	{
-		id: 28,
+		id: 29,
 		productCode: '',
 		title: '25ml Cream Jar',
 		closure: 'Screw-on lid',
@@ -512,7 +512,7 @@ export const products = [
 		type: 'jars-small',
 	},
 	{
-		id: 29,
+		id: 30,
 		productCode: '',
 		title: 'Jar 50g',
 		pet: 'PP Inner',
@@ -526,7 +526,7 @@ export const products = [
 		type: 'jars-small',
 	},
 	{
-		id: 30,
+		id: 31,
 		productCode: '',
 		title: 'Jar 100g',
 		closure: '65mm closure',
@@ -539,7 +539,7 @@ export const products = [
 	},
 	//oval
 	{
-		id: 31,
+		id: 32,
 		productCode: '',
 		title: 'Oval 150ml',
 		closure: '24/410 closure',
@@ -555,7 +555,7 @@ export const products = [
 		type: 'oval',
 	},
 	{
-		id: 32,
+		id: 33,
 		productCode: '',
 		title: 'Oval 250ml',
 		closure: '24/410 closure',
@@ -570,7 +570,7 @@ export const products = [
 		type: 'oval',
 	},
 	{
-		id: 33,
+		id: 34,
 		productCode: '',
 		title: 'Oval 300ml',
 		closure: '24/410 closure',
@@ -585,7 +585,7 @@ export const products = [
 		type: 'oval',
 	},
 	{
-		id: 34,
+		id: 35,
 		productCode: '',
 		title: 'Oval 500ml',
 		closure: '24/410 & 28/410 closure',
@@ -598,7 +598,7 @@ export const products = [
 	},
 	//pilfer
 	{
-		id: 35,
+		id: 36,
 		productCode: '',
 		title: 'Round Pilfer 20ml',
 		closure: 'Pilfer /2, /9 Dropper',
@@ -610,7 +610,7 @@ export const products = [
 		type: 'pilfer',
 	},
 	{
-		id: 36,
+		id: 37,
 		productCode: '',
 		title: 'Round Pilfer 20ml',
 		closure: 'Pilfer /2, /9 Dropper',
@@ -625,7 +625,7 @@ export const products = [
 		type: 'pilfer',
 	},
 	{
-		id: 37,
+		id: 38,
 		productCode: '',
 		title: 'Round Pilfer 25ml',
 		closure: 'Pilfer /3',
@@ -640,7 +640,7 @@ export const products = [
 		type: 'pilfer',
 	},
 	{
-		id: 38,
+		id: 39,
 		productCode: '',
 		title: 'Round Pilfer 100ml',
 		closure: 'Pilfer /3',
@@ -656,7 +656,7 @@ export const products = [
 	},
 	//pumps
 	{
-		id: 39,
+		id: 40,
 		productCode: '',
 		title: 'Spray Pumps',
 		closure: 'Various sizes',
@@ -669,7 +669,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 40,
+		id: 41,
 		productCode: '',
 		title: 'Triggers',
 		closure: '28/410',
@@ -679,7 +679,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 41,
+		id: 42,
 		productCode: '',
 		title: 'Lotion Pumps',
 		closure: '24/410 / 28/410',
@@ -689,7 +689,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 42,
+		id: 43,
 		productCode: '',
 		title: 'Flips',
 		closure: '24/410 / 28/410',
@@ -700,7 +700,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 43,
+		id: 44,
 		productCode: '',
 		title: 'Smooth',
 		closure: '24/410',
@@ -711,7 +711,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 44,
+		id: 45,
 		productCode: '',
 		title: 'Tall',
 		closure: '24/410',
@@ -722,7 +722,7 @@ export const products = [
 		type: 'pumps',
 	},
 	{
-		id: 45,
+		id: 46,
 		productCode: '',
 		title: "Ridge 30's",
 		closure: '38',
@@ -734,7 +734,7 @@ export const products = [
 	},
 	//rectangular
 	{
-		id: 46,
+		id: 47,
 		productCode: '',
 		title: 'Rectangular 50ml',
 		closure: '18/415 closure',
@@ -743,13 +743,13 @@ export const products = [
 		dimensions: '80 x Ø41 x Ø22',
 		mixture: '2022 minimum',
 		images: [
-			'/products/pumps/Rectangular-50ml.png',
-			'/products/pumps/Rectangular-50ml-2.png',
+			'/products/rectangular/Rectangular-50ml.png',
+			'/products/rectangular/Rectangular-50ml-2.png',
 		],
 		type: 'rectangular',
 	},
 	{
-		id: 47,
+		id: 48,
 		productCode: '',
 		title: 'Rectangular 200ml',
 		closure: '24/410 closure',
@@ -764,7 +764,7 @@ export const products = [
 		type: 'rectangular',
 	},
 	{
-		id: 48,
+		id: 49,
 		productCode: '',
 		title: 'Rectangular 300ml',
 		closure: '24/410 closure',
@@ -773,13 +773,13 @@ export const products = [
 		dimensions: '131 x Ø69 x Ø42',
 		mixture: '408 minimum',
 		images: [
-			'/products/pumps/Rectangular-300ml.png',
-			'/products/pumps/Rectangular-300ml-2.png',
+			'/products/rectangular/Rectangular-300ml.png',
+			'/products/rectangular/Rectangular-300ml-2.png',
 		],
 		type: 'rectangular',
 	},
 	{
-		id: 49,
+		id: 50,
 		productCode: '',
 		title: 'Rectangular 500ml',
 		closure: '24/410 closure',
@@ -788,14 +788,14 @@ export const products = [
 		dimensions: '138 x Ø88 x Ø58',
 		mixture: '7500 minimum',
 		images: [
-			'/products/pumps/Rectangular-500ml.png',
-			'/products/pumps/Rectangular-500ml-2.png',
+			'/products/rectangular/Rectangular-500ml.png',
+			'/products/rectangular/Rectangular-500ml-2.png',
 		],
 		type: 'rectangular',
 	},
 	//securi-tainers
 	{
-		id: 50,
+		id: 51,
 		productCode: '',
 		title: 'Tablet Container 62 x 152',
 		clear: 'White',
@@ -808,7 +808,7 @@ export const products = [
 		type: 'securi-tainers',
 	},
 	{
-		id: 51,
+		id: 52,
 		productCode: '',
 		title: 'Tablet Container 35 x 82',
 		clear: 'White',
@@ -821,7 +821,7 @@ export const products = [
 		type: 'securi-tainers',
 	},
 	{
-		id: 52,
+		id: 53,
 		productCode: '',
 		title: 'Tablet Container 35 x 63',
 		clear: 'White',
@@ -834,7 +834,7 @@ export const products = [
 		type: 'securi-tainers',
 	},
 	{
-		id: 53,
+		id: 54,
 		productCode: '',
 		title: 'Tablet Container 35 x 52',
 		clear: 'White',
@@ -847,7 +847,7 @@ export const products = [
 		type: 'securi-tainers',
 	},
 	{
-		id: 54,
+		id: 55,
 		productCode: '',
 		title: 'Tablet Container 62 x 90',
 		clear: 'White',
@@ -861,7 +861,7 @@ export const products = [
 	},
 	//soft-squeeze
 	{
-		id: 55,
+		id: 56,
 		productCode: '',
 		title: 'Soft 250ml',
 		closure: '24/410 closure',
@@ -877,7 +877,7 @@ export const products = [
 		type: 'soft-squeeze',
 	},
 	{
-		id: 56,
+		id: 57,
 		productCode: '',
 		title: 'Soft 100ml',
 		closure: '24/410 closure',
@@ -893,7 +893,7 @@ export const products = [
 	},
 	//square
 	{
-		id: 57,
+		id: 58,
 		productCode: '',
 		title: 'Square 50ml',
 		closure: '18/415 closure',
@@ -908,7 +908,7 @@ export const products = [
 		type: 'square',
 	},
 	{
-		id: 58,
+		id: 59,
 		productCode: '',
 		title: 'Square 100ml',
 		closure: '24/410 closure',
@@ -923,7 +923,7 @@ export const products = [
 		type: 'square',
 	},
 	{
-		id: 59,
+		id: 60,
 		productCode: '',
 		title: 'Square 200ml',
 		closure: '24/410 closure',
@@ -938,7 +938,7 @@ export const products = [
 		type: 'square',
 	},
 	{
-		id: 56,
+		id: 61,
 		productCode: '',
 		title: 'Square 300ml',
 		closure: '24/410 closure',
@@ -950,7 +950,7 @@ export const products = [
 		type: 'square',
 	},
 	{
-		id: 57,
+		id: 62,
 		productCode: '',
 		title: 'Square 500ml',
 		closure: '24/410 closure',
@@ -966,7 +966,7 @@ export const products = [
 	},
 	//straight
 	{
-		id: 58,
+		id: 63,
 		productCode: '',
 		title: 'Straight 30ml',
 		closure: '18/415 closure',
@@ -978,7 +978,7 @@ export const products = [
 		type: 'straight',
 	},
 	{
-		id: 59,
+		id: 64,
 		productCode: '',
 		title: 'Straight 50ml',
 		closure: '18/415 closure',
@@ -993,7 +993,7 @@ export const products = [
 		type: 'straight',
 	},
 	{
-		id: 60,
+		id: 65,
 		productCode: '',
 		title: 'Straight 250ml',
 		closure: '24/410 closure',
@@ -1008,7 +1008,7 @@ export const products = [
 		type: 'straight',
 	},
 	{
-		id: 61,
+		id: 66,
 		productCode: '',
 		title: 'Straight 250ml PET',
 		closure: '24/410 closure',
@@ -1020,7 +1020,7 @@ export const products = [
 		type: 'straight',
 	},
 	{
-		id: 62,
+		id: 67,
 		productCode: '',
 		title: 'Straight 500ml PET',
 		closure: '24/410 closure',
@@ -1036,7 +1036,7 @@ export const products = [
 	},
 	//tall
 	{
-		id: 63,
+		id: 68,
 		productCode: '',
 		title: 'Tall 250ml',
 		closure: '24/410 closure',
@@ -1051,7 +1051,7 @@ export const products = [
 		type: 'tall',
 	},
 	{
-		id: 64,
+		id: 69,
 		productCode: '',
 		title: 'Tall 100ml',
 		closure: '24/410 closure',
@@ -1063,7 +1063,7 @@ export const products = [
 		type: 'tall',
 	},
 	{
-		id: 65,
+		id: 70,
 		productCode: '',
 		title: 'Tall 50ml',
 		closure: '18/415 closure',
@@ -1076,7 +1076,7 @@ export const products = [
 	},
 	//taper
 	{
-		id: 66,
+		id: 71,
 		productCode: '',
 		title: 'Taper 300ml',
 		closure: '24/410 closure',
@@ -1092,7 +1092,7 @@ export const products = [
 	},
 	//tottle
 	{
-		id: 67,
+		id: 72,
 		productCode: '',
 		title: 'Tottle 30ml',
 		closure: 'Tottle cap',
@@ -1104,7 +1104,7 @@ export const products = [
 		type: 'tottle',
 	},
 	{
-		id: 68,
+		id: 73,
 		productCode: '',
 		title: 'Tottle 50ml',
 		closure: 'Oval Flip-Cap',
@@ -1121,7 +1121,7 @@ export const products = [
 		type: 'tottle',
 	},
 	{
-		id: 69,
+		id: 74,
 		productCode: '',
 		title: 'Tottle 250ml',
 		closure: 'Oval Flip-Cap',
@@ -1130,8 +1130,8 @@ export const products = [
 		dimensions: '179 x Ø66 x Ø42',
 		mixture: '20,000 minimum',
 		images: [
-			'/products/tottle/tottle-250.png',
-			'/products/tottle/tottle-250-2.png',
+			'/products/tottle/tottle-250ml.png',
+			'/products/tottle/tottle-250ml-2.png',
 		],
 		type: 'tottle',
 	},
@@ -1139,7 +1139,7 @@ export const products = [
 
 export const bestSellers = [
 	{
-		id: 63,
+		id: 68,
 		productCode: '',
 		title: 'Tall 250ml',
 		closure: '24/410 closure',
@@ -1154,7 +1154,7 @@ export const bestSellers = [
 		type: 'tall',
 	},
 	{
-		id: 55,
+		id: 56,
 		productCode: '',
 		title: 'Soft 250ml',
 		closure: '24/410 closure',
@@ -1170,7 +1170,7 @@ export const bestSellers = [
 		type: 'soft-squeeze',
 	},
 	{
-		id: 33,
+		id: 34,
 		productCode: '',
 		title: 'Oval 300ml',
 		closure: '24/410 closure',
@@ -1185,7 +1185,7 @@ export const bestSellers = [
 		type: 'oval',
 	},
 	{
-		id: 48,
+		id: 49,
 		productCode: '',
 		title: 'Rectangular 300ml',
 		closure: '24/410 closure',

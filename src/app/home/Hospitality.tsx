@@ -35,7 +35,7 @@ export default function Hospitality() {
 					<Link href={routes.contactUs} className='w-full'>
 						<Button
 							variant='light'
-							className='mt-10 w-full'
+							className='mt-10 max-w-[230px]'
 							label='Enquire now'
 						/>
 					</Link>
