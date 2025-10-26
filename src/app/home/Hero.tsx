@@ -18,7 +18,11 @@ export default function Hero() {
 						for manufacturing & maintaining of all moulds for various plastic
 						products.
 					</p>
-					<Button variant='light' className='mt-10' label='SHOP OUR RANGE' />
+					<Button
+						variant='light'
+						className='mt-10 max-w-[230px]'
+						label='SHOP OUR RANGE'
+					/>
 				</div>
 			</div>
 		</section>

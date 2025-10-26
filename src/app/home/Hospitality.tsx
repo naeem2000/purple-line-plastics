@@ -25,15 +25,19 @@ export default function Hospitality() {
 						<br />
 						<br />
 						Moulding of PET, PVC, HDPE, LDPE, PP, HIPS, TPE & others for various
-						plastic containers We Specialise in quality Blow Moulded Custom
+						plastic containers We Specialize in quality Blow Moulded Custom
 						plastic bottles, plastic jars, short runs & quick turnaround times.
 						<br />
 						<br />
 						Medium sized niche Blow Moulder manufacturing plastic bottles for
 						the Cosmetic, Pharmaceutical & Hospitality markets.
 					</p>
-					<Link href={routes.contactUs}>
-						<Button variant='light' className='mt-10' label='Enquire now' />
+					<Link href={routes.contactUs} className='w-full'>
+						<Button
+							variant='light'
+							className='mt-10 max-w-[230px]'
+							label='Enquire now'
+						/>
 					</Link>
 				</div>
 			</div>

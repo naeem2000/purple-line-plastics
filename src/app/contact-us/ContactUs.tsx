@@ -23,7 +23,7 @@ export default function ContactUs() {
 					action={submitForm}
 				>
 					<div className='w-full max-w-[904px]'>
-						<div className='flex items-center justify-center gap-6'>
+						<div className='flex items-center flex-col lg:flex-row justify-center gap-6'>
 							<input
 								type='text'
 								name='name&surname'

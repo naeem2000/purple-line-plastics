@@ -18,44 +18,50 @@ export default function Closures() {
 
 	return (
 		<section className='max-width'>
-			<div className='flex flex-wrap justify-center gap-5 py-10 lg:py-20'>
+			<div className='grid grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 items-start gap-5 lg:gap-10 py-5 lg:py-16'>
 				{closure.map((item, index) => {
 					return (
 						<div
-							className='flex items-start justify-center flex-col  lg:w-[410px]'
+							className='flex items-start justify-between h-full flex-col w-full max-w-[410px]'
 							key={index}
 						>
-							<Image
-								src={item.images[0]}
-								alt={item.title}
-								width={450}
-								height={450}
-								className='rounded-sm'
-							/>
-							<div className='py-5'>
-								<p className='text-[22px] font-[Inter,sans-serif] font-black'>
-									{item.title}
-								</p>
-								<br />
-								<p className='text-[22px] font-[Inter,sans-serif] '>
-									{item.pet}
-								</p>
-								<p className='text-[22px] font-[Inter,sans-serif] '>
-									{item.clear}
-								</p>
-								<p className='text-[22px] font-[Inter,sans-serif] '>
-									{item.dimensions}
-								</p>
-								<p className='text-[22px] font-[Inter,sans-serif] '>
-									{item.mixture}
-								</p>
+							<div>
+								<Image
+									src={item.images[0]}
+									alt={item.title}
+									width={450}
+									height={450}
+									className='rounded-sm'
+								/>
+								<div className='py-5'>
+									<p className='text-[22px] font-[Inter,sans-serif] font-black'>
+										{item.title}
+									</p>
+									<br />
+									<p className='text-[22px] font-[Inter,sans-serif] '>
+										{item.pet}
+									</p>
+									<p className='text-[22px] font-[Inter,sans-serif] '>
+										{item.clear}
+									</p>
+									<p className='text-[22px] font-[Inter,sans-serif] '>
+										{item.dimensions}
+									</p>
+									<p className='text-[22px] font-[Inter,sans-serif] '>
+										{item.mixture}
+									</p>
+								</div>
 							</div>
-							<div className='flex flex-col gap-5'>
-								<Link href={`/product/${item.id}`}>
-									<Button variant='dark' label='View Product' />
+							<div className='flex flex-col 2xl:flex-row gap-2 lg:gap-5 w-full'>
+								<Link className='w-full' href={`/product/${item.id}`}>
+									<Button
+										variant='dark'
+										className='w-full'
+										label='View Product'
+									/>
 								</Link>
-								<Link href={routes.contactUs}>
-									<Button variant='dark' label='Enquire' />
+								<Link className='w-full' href={routes.contactUs}>
+									<Button variant='dark' className='w-full' label='Enquire' />
 								</Link>
 							</div>
 						</div>
